@@ -51,3 +51,9 @@ profile 'count to a million' do
     number = number + 1
   end
 end
+
+profile 'using inject to find 500!' do
+  a = (1..500).to_a
+  result = a.inject { |m,n| m * n }
+  puts result
+end
