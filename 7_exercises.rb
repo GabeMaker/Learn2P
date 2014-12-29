@@ -5,7 +5,7 @@ year = gets.chomp.to_i
 puts 'what is the ending year?'
 end_year = gets.chomp.to_i
 puts "---"
-puts "leap years between #{start_year} and #{end_year} are:"
+puts "leap years between #{year} and #{end_year} are:"
 
 
 while year < end_year
